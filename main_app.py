@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from joblib import load  # Ganti dari pickle
+from joblib import load
 import base64
 
 # Konversi Yes/No
