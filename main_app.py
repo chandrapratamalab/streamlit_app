@@ -21,7 +21,7 @@ app_mode = st.sidebar.selectbox('Select Page', ['Home', 'Prediction'])
 # ===== HALAMAN HOME ========
 # ===========================
 if app_mode == 'Home':
-    st.title('LOAN PREDICTION :')
+    st.title('LOAN PREDICTION (CHANDRA):')
     st.image('loan_image.jpg')
     st.markdown('### Dataset:')
     data = pd.read_csv('loan_dataset.csv')
